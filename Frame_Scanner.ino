@@ -16,6 +16,8 @@ int readsuccess;
 //byte defcard[4]={0x32,0xD7,0x0F,0x2B}; // if you only want one card
 byte defcard[][4]={{0xD1,0x7E,0x8E,0xB9},{0x32,0xD7,0x0F,0xB}}; //for multiple cards  //D17E8EB9
 
+//Define 2d Array with ID, Colour, Brand, Quantity
+
 int N=2; //change this to the number of cards/tags you will use
 byte readcard[4]; //stores the UID of current tag which is read
 
